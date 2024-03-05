@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303B40"
+    android:backgroundTint="#185481"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bungee"
+        android:text="Decide"
+        android:textAlignment="center"
+        android:textColor="#D3CCCC"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/txtPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:hint="Preencha o Valor"
+        android:inputType="text"
+        android:textColor="#D3CCCC"
+        android:textColorHint="#22D3CCCC"
+        android:textSize="30sp" />
+
+    <Switch
+        android:id="@+id/switchQuero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text=" Quero muito isso ?"
+        android:textColor="#D3CCCC"
+        android:textSize="30sp" />
+
+    <Switch
+        android:id="@+id/switchPreciso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Eu Preciso disso ?"
+        android:textColor="#D3CCCC"
+        android:textSize="30sp" />
+
+    <Switch
+        android:id="@+id/switchPosso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Posso Pagar ?"
+        android:textColor="#D3CCCC"
+        android:textSize="30sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDecide"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_button"
+        android:text="DECIDIR"
+        android:textColor="#FEFEFE"
+        android:textColorHighlight="#D9D3D3"
+        android:textColorLink="#DCD2D2"
+         />
+
+</LinearLayout>
